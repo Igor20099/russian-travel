@@ -1,9 +1,8 @@
 .header {
     box-sizing: border-box;
-    
     padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    width: calc(100% - 96px);
 }
