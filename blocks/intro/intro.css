@@ -1,0 +1,8 @@
+.intro {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 47%;
+}
