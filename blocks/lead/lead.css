@@ -1,8 +1,19 @@
 .lead {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0 100px;
+}
+
+@media screen and (max-width: 1144px) {
+    .lead {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        padding: 0;
+    }
 }
