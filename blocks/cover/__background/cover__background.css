@@ -1,0 +1,8 @@
+.cover__background {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+   object-fit: cover;
+    z-index: 0;
+    object-position: 0 0;
+}
