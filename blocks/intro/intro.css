@@ -4,4 +4,29 @@
     flex-direction: column;
     justify-content: start;
     align-items: start;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 1145px) {
+    .intro {
+        padding: 0 5vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        padding: 0 16px;
+    }
 }
