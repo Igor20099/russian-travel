@@ -1,5 +1,5 @@
 .page__header {
-    margin-top: 28px;
+    margin: 28px auto 56px
 }
 
 @media screen and (max-width: 320px) {
