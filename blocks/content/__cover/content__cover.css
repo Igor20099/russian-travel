@@ -4,7 +4,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .cover {
+    .content__cover {
         margin-bottom: 68px;
     }
 }
