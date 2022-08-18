@@ -3,5 +3,32 @@
     padding: 0;
     max-width: 460px;
     grid-row: span 2;
+    object-fit: cover;
 
+}
+
+@media screen and (max-width: 1024px) {
+    .place__image {
+        max-width: 440px;
+        padding: 0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        max-width: 340px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .place__image {
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        padding: 0
+    }
 }
