@@ -14,8 +14,7 @@
     .footer__menu-links {
         flex-direction: column;
         min-height: 250px;
-        
         padding: 0;
-        margin-bottom: 32px;
+        margin-bottom: 48px;
     }
 }

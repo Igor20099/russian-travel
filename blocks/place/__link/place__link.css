@@ -5,4 +5,10 @@
     font-size: 18px;
     line-height: 1.2;
     color: #fff;
+    opacity: 1;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+    transition: opacity 0.2 ease-in-out;
 }

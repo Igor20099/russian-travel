@@ -7,6 +7,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
+    opacity: 1;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+    translate: opacity 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 697px) {
