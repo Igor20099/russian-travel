@@ -7,3 +7,5 @@
 * Flexbox
 * Grid
 * БЭМ
+
+[Ссылка на проект](https://igor20099.github.io/russian-travel/) 

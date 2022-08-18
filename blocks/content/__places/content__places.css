@@ -1,0 +1,15 @@
+.content__places {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 768px) {
+    .content__places {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content__places {
+        margin-bottom: 40px;
+    }
+}

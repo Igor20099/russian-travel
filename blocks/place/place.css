@@ -1,30 +1,29 @@
 .place {
     display: grid;
-    grid-template-columns: repeat(2, minmax(min-content,max-content));
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
     max-width: 100%;
-    padding-bottom: 80px;
     column-gap: 40px;
 }
 
- .place:nth-child(1){
-   padding-bottom: 76px;
+.place:nth-child(1) {
+    padding-bottom: 76px;
 }
 
-.place:nth-child(2){
-   padding-bottom: 76px;
+.place:nth-child(2) {
+    padding-bottom: 76px;
 }
 
-.place:nth-child(3){
+.place:nth-child(3) {
     padding-bottom: 74px;
 }
 
-.place:nth-child(4){
+.place:nth-child(4) {
     padding-bottom: 76px;
 }
 
 .place:last-child {
     padding-bottom: 0;
-} 
+}
 
 
 
@@ -33,39 +32,38 @@
         column-gap: 32px;
     }
 
-    .place:nth-child(1){
-       padding-bottom: 54px;
+    .place:nth-child(1) {
+        padding-bottom: 54px;
     }
 
-    .place:nth-child(2){
-        padding-bottom: 52px;
+    .place:nth-child(2) {
+        padding-bottom: 50px;
     }
 
-    .place:nth-child(3){
-       padding-bottom: 72px;
-    } 
+    .place:nth-child(3) {
+        padding-bottom: 74px;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .place {
-        padding-bottom: 73px;
         column-gap: 28px;
     }
 
-    .place:nth-child(1){
+    .place:nth-child(1) {
         padding-bottom: 44px;
     }
 
-    .place:nth-child(2){
+    .place:nth-child(2) {
         padding-bottom: 42px;
     }
 
-    .place:nth-child(3){
-        padding-bottom: 42px;  
+    .place:nth-child(3) {
+        padding-bottom: 42px;
     }
 
-    .place:nth-child(4){
-        padding-bottom: 44px;  
+    .place:nth-child(4) {
+        padding-bottom: 44px;
     }
 }
 
@@ -73,23 +71,23 @@
     .place {
         display: flex;
         flex-direction: column;
-        margin: auto;
+        justify-content: center;
     }
 
-    .place:nth-child(1){
-        padding-bottom: 48px;
+    .place:nth-child(1) {
+        padding-bottom: 50px;
     }
 
-    .place:nth-child(2){
-        padding-bottom: 24px;
+    .place:nth-child(2) {
+        padding-bottom: 22px;
     }
 
-    .place:nth-child(3){
-        padding-bottom: 24px;  
+    .place:nth-child(3) {
+        padding-bottom: 22px;
     }
 
-    .place:nth-child(4){
-        padding-bottom: 50px;  
+    .place:nth-child(4) {
+        padding-bottom: 50px;
     }
 }
 

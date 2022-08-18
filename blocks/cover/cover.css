@@ -6,9 +6,8 @@
     align-items: center;
     min-height: 740px;
     max-width: 100%;
-    margin: 0 auto;  
-    margin-bottom: 92px;
 }
+  
 
 @media screen and (max-width: 1024px) {
     .cover {
@@ -22,9 +21,14 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .cover {
+        min-height: 300px;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .cover {
         min-height: 200px;
-        margin-bottom: 64px;
     }
 }
