@@ -4,20 +4,32 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 1.63;
-    margin-bottom: 27px;
+    margin-bottom: 26px;
 }
 
-@media screen and (max-width: 768px) {
+.place__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 925px) {
     .place__paragraph {
        font-size: 16px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 734px) {
     .place__paragraph {
         padding: 0 16px;
         margin-bottom: 25px;
     }
+
+    .place__paragraph:last-child {
+        margin-bottom: 0;
+    }
 }
 
-
+@media screen and (max-width: 320px) {
+    .place__paragraph {
+        max-width: 288px;
+    }
+}

@@ -1,17 +1,11 @@
 .intro {
-    padding: 0 100px;
+    padding: 0 148px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
     max-width: 690px;
     
-}
-
-@media screen and (max-width: 1145px) {
-    .intro {
-        padding: 0 5vw;
-    }
 }
 
 @media screen and (max-width: 1024px) {

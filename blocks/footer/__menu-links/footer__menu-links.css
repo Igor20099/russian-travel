@@ -4,14 +4,11 @@
     display: flex;
     list-style-type: none;
     justify-content: space-between;
-
 }
 
 @media screen and (max-width: 697px) {
     .footer__menu-links {
         flex-direction: column;
-        min-height: 250px;
-        padding: 0;
-        margin-bottom: 44px;
+        margin-bottom: 46px;
     }
 }

@@ -14,13 +14,13 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 866px) {
     .place__title {
         font-size: 42px;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 734px) {
     .place__title {
         padding: 0 16px;
         font-size: 32px;

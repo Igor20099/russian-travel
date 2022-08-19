@@ -1,10 +1,15 @@
 .content__cover {
-    margin: 0 auto;  
-    margin-bottom: 92px;
+    margin: 0 auto 92px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     .content__cover {
-        margin-bottom: 68px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content__cover {
+        margin-bottom: 64px;
     }
 }
