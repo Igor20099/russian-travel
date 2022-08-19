@@ -1,5 +1,5 @@
 .lead__caption {
-    margin: 0;
+    margin: 8px 0 0;
     padding: 0;
     align-self: start;
     font-style: normal;
@@ -8,7 +8,6 @@
     line-height: 1.4;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    margin-top: 8px;
 }
 
 @media screen and (max-width: 768px) {
