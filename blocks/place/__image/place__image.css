@@ -4,7 +4,6 @@
     max-width: 460px;
     grid-row: span 2;
     object-fit: contain;
-
 }
 
 @media screen and (max-width: 1024px) {
